@@ -268,7 +268,7 @@ ss -ltnp | grep -E '4822|5901|3306'
 From **local machine**:
 
 ```bash
-gcloud compute ssh bharat-vidya-1 -- -L 8080:localhost:8080
+gcloud compute ssh <vm-name> -- -L 8080:localhost:8080
 ```
 
 Open browser:
